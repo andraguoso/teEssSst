@@ -1,0 +1,48 @@
+<!--
+game about a cat that really wants to be your friend, and gives you a test 
+that is a not-so-subtle way of getting to know you and whether you like him
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teEssSst</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="critter.png">
+</head>
+<body>
+    <div id="card">
+        <div id="home">
+            <h1>test</h1>
+            <p>
+                this is a test and you're expected to defend whatever knowledge (and patience) you have. of anything ever.
+                <br>assigned by: new cat<br>
+                <button id="start">start</button>
+                <br>tip: you should try to write sincerely
+            </p>
+        </div>
+        
+        <div id="test" class="hidden">
+            <h2 id="question"></h2>
+            <input type="text" id="answer-place" placeholder="go on!">
+            <br><br>
+            <button id="next">next</button>
+            <button id="sumbit">sumbit</button>
+        </div>
+        
+        <div id="finish" class="hidden">
+            <p id="show-love"></p>
+            <p>SCORE:</p>
+            <p> 
+                finished! thanks for your time! i hope critter helped you 
+                to remember some aspects of yourself c: 
+            </p>
+            <button id="back">head back</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
